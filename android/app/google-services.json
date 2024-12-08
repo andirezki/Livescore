@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302108457008",
+    "project_id": "livescore-ed623",
+    "storage_bucket": "livescore-ed623.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302108457008:android:18f1569fa5217e335b95f5",
+        "android_client_info": {
+          "package_name": "com.papb.livescore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjIy_rjNzfjyM2NZ-xqW5WqhMKCxh7mFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
