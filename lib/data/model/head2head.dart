@@ -124,13 +124,13 @@ class Away {
     int id;
     String name;
     String logo;
-    bool winner;
+    bool? winner;
 
     Away({
         required this.id,
         required this.name,
         required this.logo,
-        required this.winner,
+        this.winner,
     });
 
     factory Away.fromRawJson(String str) => Away.fromJson(json.decode(str));
@@ -141,7 +141,7 @@ class Away {
         id: json["id"],
         name: json["name"],
         logo: json["logo"],
-        winner: json["winner"],
+        winner: json["winner"] ?? false,
     );
 
     Map<String, dynamic> toJson() => {
